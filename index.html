@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Slide show</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Swiper -->
+  <div class="container swiper">
+    <div class="slider-wrapper">
+        <div class="card-list swiper-wrapper">
+            <div class="card-item swiper-slide">
+                <img src="images/image-1.png" alt="" class="user-image "> 
+                <h2 class="name">NAME-0</h2>
+                <p>incidunt quo neque itaque quibusdam suscipit repellat cum? Deleniti numquam ipsa autem!</p>
+            </div>
+            <div class="card-item swiper-slide ">
+                <img src="images/image-1.png" alt="" class="user-image "> 
+                <h2 class="name">NAME-1</h2>
+                <p>incidunt quo neque itaque quibusdam suscipit repellat cum? Deleniti numquam ipsa autem!</p>
+            </div>
+            <div class="card-item swiper-slide ">
+                <img src="images/image-1.png" alt="" class="user-image "> 
+                <h2 class="name">NAME-2</h2>
+                <p>incidunt quo neque itaque quibusdam suscipit repellat cum? Deleniti numquam ipsa autem!</p>
+            </div>
+            <div class="card-item swiper-slide">
+                <img src="images/image-1.png" alt="" class="user-image "> 
+                <h2 class="name">NAME-3</h2>
+                <p>incidunt quo neque itaque quibusdam suscipit repellat cum? Deleniti numquam ipsa autem!</p>
+            </div>
+            <div class="card-item swiper-slide">
+                <img src="images/image-1.png" alt="" class="user-image "> 
+                <h2 class="name">NAME-4</h2>
+                <p>incidunt quo neque itaque quibusdam suscipit repellat cum? Deleniti numquam ipsa autem!</p>
+            </div>
+            <div class="card-item swiper-slide">
+                <img src="images/image-1.png" alt="" class="user-image "> 
+                <h2 class="name">NAME-5</h2>
+                <p>incidunt quo neque itaque quibusdam suscipit repellat cum? Deleniti numquam ipsa autem!</p>
+            </div>
+            <div class="card-item swiper-slide">
+                <img src="images/image-1.png" alt="" class="user-image "> 
+                <h2 class="name">NAME-6</h2>
+                <p>incidunt quo neque itaque quibusdam suscipit repellat cum? Deleniti numquam ipsa autem!</p>
+            </div>
+            <div class="card-item swiper-slide">
+                <img src="images/image-1.png" alt="" class="user-image "> 
+                <h2 class="name">NAME-7</h2>
+                <p>incidunt quo neque itaque quibusdam suscipit repellat cum? Deleniti numquam ipsa autem!</p>
+            </div>
+        </div>  
+                
+      
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+    </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".slider-wrapper", {
+      loop:true,
+      slidesPerView: 4,
+      spaceBetween: 30,
+      
+      navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    });
+  </script>
+</body>
+
+</html>
